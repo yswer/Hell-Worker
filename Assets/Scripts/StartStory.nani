@@ -1,0 +1,45 @@
+
+; look:left pos:45,10
+; 显示距离距左边框45%，距下边框10%，并使其看向左
+
+@back hell
+
+@char black_ghost.default look:right
+black_ghost: 你好，地狱打工人
+
+@char myself.default look:left
+myself: nihao
+
+@char white_ghost.default look:right
+white_ghost: 地狱已经人满为患了
+black_ghost: 地狱之主的女儿【卷王】叛逆逃出地狱、来到人间，人间没有办法承受【（卷）王之力】，开始越发地卷。这一个月，猝死的人是以往的5倍
+white_ghost: 再这样下去我们也要猝死了！
+
+你来到地狱后，地狱员工们很兴奋，因为你是一个废物。虽然你很卷，但你内心有足够的【躺平之力】可以应对、吸引【卷王】。地狱决定雇佣你，让你重返人间，清除卷王之力，并且把【卷王】带回地狱。
+
+white_ghost: 所以你愿意重返人间吗
+@hide black_ghost
+@hide white_ghost
+@char myself
+@hidePrinter
+
+@choice "愿意" goto:.Agree
+@choice "拒绝" goto:.Reject
+@stop
+
+# Reject
+你拒绝了
+你重生投胎，2岁爬得没有人快，6岁考得分不如人家高……周围的人全都陷入了疯狂地内卷，终于，你被卷死了，又回到了地狱。睁开眼，地狱的黑白无常拿着契约期待地看着你——
+
+@choice "愿意" goto:.Agree
+@stop
+
+# Agree
+你接受了
+@hidePrinter
+@hide myself
+
+
+@back office
+
+@stop
