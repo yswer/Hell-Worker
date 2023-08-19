@@ -6,6 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     public Transform player;
     public float moveSpeed = 3.0f;
+    public float health = 10.0f;
     public int damagePerAttack = 10;
     public float attackInterval = 1.0f; // 攻击间隔
 
@@ -13,6 +14,10 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
         // 计算朝向玩家的方向
         Vector3 moveDirection = (player.position - transform.position).normalized;
 
@@ -46,7 +51,7 @@ public class EnemyController : MonoBehaviour
         // 例如：调用玩家脚本的伤害函数
         // player.GetComponent<PlayerHealth>().TakeDamage(damagePerAttack);
         Debug.Log("Hit");
-        
+        player.gameObject.GetComponent<PlayerController>().health -= damagePerAttack;
         yield return new WaitForSeconds(attackInterval);
 
         canAttack = true;

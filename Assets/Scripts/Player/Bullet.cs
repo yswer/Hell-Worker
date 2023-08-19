@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public int damage = 10;
+    public float damage = 10;
     public float lifespan = 10.0f; // 子弹的寿命，单位为秒
 
     private float startTime;
@@ -30,7 +30,7 @@ public class Bullet : MonoBehaviour
             // 对敌人造成伤害的逻辑
             // 例如：调用敌人脚本的伤害函数
             // collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<EnemyController>().health -= damage;
             // 销毁子弹
             Destroy(gameObject);
         }

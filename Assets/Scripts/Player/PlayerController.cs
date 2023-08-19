@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attack : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    public float moveSpeed = 5.0f;
+    public float health = 100.0f;
+    public float energy = 7.0f;
+    public float damage = 10.0f;
     public GameObject bulletPrefab;
     public float bulletSpeed = 10.0f;
     public float shootInterval = 1.0f;
@@ -11,6 +15,21 @@ public class Attack : MonoBehaviour
     private Transform closestEnemy;
     private float lastShootTime;
 
+    
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        // 获取玩家输入
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
+        // 计算移动向量
+        Vector3 moveDirection = new Vector3(horizontalInput, verticalInput, 0.0f);
+
+        // 根据移动向量和移动速度移动玩家
+        transform.position += moveDirection.normalized * moveSpeed * Time.deltaTime;
+    }
+    
     void Update()
     {
         FindClosestEnemy();
@@ -51,6 +70,9 @@ public class Attack : MonoBehaviour
 
         // 计算子弹的移动方向
         Vector3 shootDirection = (closestEnemy.position - transform.position).normalized;
+        
+        // 设置子弹的伤害
+        bullet.GetComponent<Bullet>().damage = damage;
 
         // 给子弹添加速度
         Rigidbody2D bulletRigidbody = bullet.GetComponent<Rigidbody2D>();
