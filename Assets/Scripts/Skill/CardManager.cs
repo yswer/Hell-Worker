@@ -93,7 +93,7 @@ public class CardManager : MonoBehaviour
             Player.shootInterval /= 2;
         }
         yield return new WaitForSeconds(delay);
-        Player.moveSpeed = beginInterval;  
+        Player.shootInterval = beginInterval;  
     }
     
     IEnumerator StunEffect(float delay, GameObject enemy)

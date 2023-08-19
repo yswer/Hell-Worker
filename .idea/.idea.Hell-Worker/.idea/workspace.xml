@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31626a3e-c90c-4663-9204-3f581312e62f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hell-Worker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hell-Worker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Skill/CardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Skill/CardManager.cs" afterDir="false" />
-    </list>
+    <list default="true" id="31626a3e-c90c-4663-9204-3f581312e62f" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692425523610</updated>
       <workItem from="1692425531425" duration="5048000" />
-      <workItem from="1692433491882" duration="12778000" />
+      <workItem from="1692433491882" duration="13117000" />
     </task>
     <servers />
   </component>

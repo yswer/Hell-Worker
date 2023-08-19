@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Naninovel;
+// using Naninovel;
 
 public class StartStory : MonoBehaviour
 {
@@ -20,6 +20,6 @@ public class StartStory : MonoBehaviour
 
     public async void Click()
     {
-        await RuntimeInitializer.InitializeAsync();
+        // await RuntimeInitializer.InitializeAsync();
     }
 }
