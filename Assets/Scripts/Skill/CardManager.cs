@@ -110,7 +110,10 @@ public class CardManager : MonoBehaviour
 
         enemyController.moveSpeed = originalMoveSpeed; // 恢复移动速度
         enemyController.damagePerAttack = originalDamage; // 恢复伤害
-        enemy.transform.position = originalTransform.position; // 恢复位置
+        if (enemy)
+        {
+            enemy.transform.position = originalTransform.position; // 恢复位置
+        }
         
     }
     
