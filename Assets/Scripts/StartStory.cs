@@ -6,20 +6,29 @@ using Naninovel;
 
 public class StartStory : MonoBehaviour
 {
+    public Canvas canvas;
     // Start is called before the first frame update
     void Start()
     {
-        
+        AsyncStart();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Click()
     {
-        
+        AsyncClick();
     }
 
-    public async void Click()
+    async void AsyncStart()
     {
         await RuntimeInitializer.InitializeAsync();
+        canvas.worldCamera = GameObject.Find("UICamera").GetComponent<Camera>();
+    }
+
+    async void AsyncClick()
+    {
+        var player = Engine.GetService<IScriptPlayer>();
+        
+        await player.PreloadAndPlayAsync("StartStory");
+        canvas.gameObject.SetActive(false);
     }
 }

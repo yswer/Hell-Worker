@@ -156,3 +156,33 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Backgrounds/faa65eaa-0cc8-474c-a8b9-192027ec02ef
+    Resources:
+    - name: hell
+      pathPrefix: Backgrounds/MainBackground
+      guid: c10955f409ccb6c43905881bb5c65c8b
+    - name: black
+      pathPrefix: Backgrounds/MainBackground
+      guid: a039c14ddb01be44db9859857465d1e4
+  - Id: Scripts
+    Resources:
+    - name: StartStory
+      pathPrefix: Scripts
+      guid: 7fc2cba28f8a7a845803dbe80a8d1cf6
+  - Id: Audio
+    Resources: []
+  - Id: Characters/9f5ef97b-19ef-400d-8472-fccdf835b9c5
+    Resources:
+    - name: default
+      pathPrefix: Characters/horse_face
+      guid: 175a00acd7ae7124fa042a57af99744e
+  - Id: Characters/8e39bf8e-7c00-41d9-89cc-609001f762e3
+    Resources:
+    - name: default
+      pathPrefix: Characters/ox_head
+      guid: 662940ef62027344e868a4a5c54c0a13
+  - Id: Characters/5e2f2363-337b-44aa-8585-4bb741704787
+    Resources:
+    - name: default
+      pathPrefix: Characters/myself
+      guid: 85b05c1c475dc1341bc96f9ecc23c8e7

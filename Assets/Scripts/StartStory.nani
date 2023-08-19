@@ -80,7 +80,7 @@ myself: 还是算了，我不行……让我转世投胎吧。下一世再做出
 @back black
 [br 10]
 眼前一黑，你重返人间。这一次，你发誓——要狠狠反内卷。
-@loadScene StartPanel
 @hideUI
 @hideAll
+@loadScene demo
 @stop
