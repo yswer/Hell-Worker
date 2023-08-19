@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,14 +10,24 @@ public class EnemyController : MonoBehaviour
     public float health = 10.0f;
     public int damagePerAttack = 10;
     public float attackInterval = 1.0f; // 攻击间隔
-
+    public EnemySpawnManager spawnManager;
     private bool canAttack = true;
+
+    private void Start()
+    {
+        spawnManager = GameObject.Find("EnemySpawnManager").GetComponent<EnemySpawnManager>();
+    }
 
     void Update()
     {
         if (health <= 0)
         {
             Destroy(gameObject);
+            spawnManager.enemies--;
+            if (spawnManager.enemies == 0)
+            {
+                spawnManager.SpawnEnemy();
+            }
         }
         // 计算朝向玩家的方向
         Vector3 moveDirection = (player.position - transform.position).normalized;
@@ -56,4 +67,5 @@ public class EnemyController : MonoBehaviour
 
         canAttack = true;
     }
+    
 }

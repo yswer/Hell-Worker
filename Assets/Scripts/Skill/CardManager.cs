@@ -96,25 +96,22 @@ public class CardManager : MonoBehaviour
         Player.moveSpeed = beginInterval;  
     }
     
-    IEnumerator StunEffect(float delay)
+    IEnumerator StunEffect(float delay, GameObject enemy)
     {
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        delay *= cardCounters[3];
+        Transform originalTransform = enemy.transform;
+        EnemyController enemyController = enemy.GetComponent<EnemyController>(); // 假设有 EnemyController 脚本
+        var originalMoveSpeed = enemyController.moveSpeed;
+        var originalDamage = enemyController.damagePerAttack;
+        enemyController.moveSpeed = 0.0f; // 冻结移动
+        enemyController.damagePerAttack = 0; // 伤害降为 0
 
-        foreach (GameObject enemy in enemies)
-        {
-            Transform originalTransform = enemy.transform;
-            EnemyController enemyController = enemy.GetComponent<EnemyController>(); // 假设有 EnemyController 脚本
-            var originalMoveSpeed = enemyController.moveSpeed;
-            var originalDamage = enemyController.damagePerAttack;
-            enemyController.moveSpeed = 0.0f; // 冻结移动
-            enemyController.damagePerAttack = 0; // 伤害降为 0
+        yield return new WaitForSeconds(delay);
 
-            yield return new WaitForSeconds(delay);
-
-            enemyController.moveSpeed = originalMoveSpeed; // 恢复移动速度
-            enemyController.damagePerAttack = originalDamage; // 恢复伤害
-            enemy.transform.position = originalTransform.position; // 恢复位置
-        }
+        enemyController.moveSpeed = originalMoveSpeed; // 恢复移动速度
+        enemyController.damagePerAttack = originalDamage; // 恢复伤害
+        enemy.transform.position = originalTransform.position; // 恢复位置
+        
     }
     
     // 拍马屁：提高移速
@@ -123,6 +120,7 @@ public class CardManager : MonoBehaviour
         if (cardCounters[0] > 0)
         {
             Debug.Log("Skill1");
+
             StartCoroutine(ChangePlayerSpeed(skill1Duration));
         }
         
@@ -151,7 +149,11 @@ public class CardManager : MonoBehaviour
         if (cardCounters[3] > 0)
         {
             Debug.Log("Skill4");
-            StartCoroutine(StunEffect(skill4Duration));
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            foreach (GameObject enemy in enemies)
+            {
+                StartCoroutine(StunEffect(skill4Duration, enemy));
+            }
         }
     }
     

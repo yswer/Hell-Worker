@@ -456,6 +456,7 @@ MonoBehaviour:
   playerTransform: {fileID: 2018418193}
   numberOfEnemiesToSpawn: 10
   spawnRadius: 10
+  enemies: 0
 --- !u!4 &947939065
 Transform:
   m_ObjectHideFlags: 0
@@ -548,7 +549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7172069878689634872, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -130
+      value: -328.9
       objectReference: {fileID: 0}
     - target: {fileID: 7172069878689634872, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -903,7 +904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7172069878689634872, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -284
+      value: -138.6
       objectReference: {fileID: 0}
     - target: {fileID: 7172069878689634872, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: m_AnchoredPosition.y
