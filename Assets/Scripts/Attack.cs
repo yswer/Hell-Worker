@@ -26,6 +26,7 @@ public class Attack : MonoBehaviour
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         float closestDistance = Mathf.Infinity;
+        closestEnemy = null; // 重置最近敌人
 
         foreach (GameObject enemy in enemies)
         {
@@ -40,6 +41,11 @@ public class Attack : MonoBehaviour
 
     void Shoot()
     {
+        if (closestEnemy == null)
+        {
+            return;
+        }
+
         // 创建子弹
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
 
