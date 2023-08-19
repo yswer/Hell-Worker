@@ -13,57 +13,57 @@ MonoBehaviour:
   m_Name: EditorResources
   m_EditorClassIdentifier: 
   resourceCategories:
-  - Id: TextPrinters/02703dba-0d6b-4893-90aa-23718af30905
+  - Id: TextPrinters/7bb14326-d696-4109-a1eb-81e118d469f0
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
       guid: 1bc08ccd31adff6439e97161aa6e1d8b
-  - Id: TextPrinters/b45c654c-c2b7-47b8-8de7-797e88a8edd0
+  - Id: TextPrinters/5b9b316a-20bd-4e15-b274-022121b74435
     Resources:
     - name: Fullscreen
       pathPrefix: TextPrinters
       guid: c87cebd3f0d4f174789cd351ce9591c4
-  - Id: TextPrinters/0194ebdd-634f-433a-9df6-78e647e130d2
+  - Id: TextPrinters/2191217f-c5fa-4718-a469-7b08aec5e085
     Resources:
     - name: Wide
       pathPrefix: TextPrinters
       guid: 781828b806deb1e4cbf50ef9de41da10
-  - Id: TextPrinters/5ba556a8-f754-45c3-9fa7-521378923e65
+  - Id: TextPrinters/6ea84e56-33e2-4810-9124-c60c799db6b6
     Resources:
     - name: Chat
       pathPrefix: TextPrinters
       guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
-  - Id: TextPrinters/30375864-2733-412d-8873-b7f6ef7b8d53
+  - Id: TextPrinters/b648db22-da31-41ad-9685-89e48a0229ee
     Resources:
     - name: Bubble
       pathPrefix: TextPrinters
       guid: b47d9659b2be5ee4e95a776f213c9d4b
-  - Id: TextPrinters/dd436cb2-9aef-407d-a51f-fe2f3234f46a
+  - Id: TextPrinters/a6a5dacf-1ac6-4c4b-b64a-2e8cc09c3f5a
     Resources:
     - name: TMProDialogue
       pathPrefix: TextPrinters
       guid: 5838611042eaced44954639c4ea4d81e
-  - Id: TextPrinters/8a0f1eac-9325-4fe4-8fb2-95e9e6df66f7
+  - Id: TextPrinters/d721c875-6288-417d-a2c1-e2ab52cd2f13
     Resources:
     - name: TMProFullscreen
       pathPrefix: TextPrinters
       guid: a2aaa417785eeca409e78c404f333ee5
-  - Id: TextPrinters/684f5262-dd0e-4743-b5fc-1d1078753c7e
+  - Id: TextPrinters/4453b9d2-37cc-4f33-8d8c-a605d8416010
     Resources:
     - name: TMProWide
       pathPrefix: TextPrinters
       guid: 7860ef40eae6a3341be02586f7edd980
-  - Id: TextPrinters/3b69d392-f759-48a3-9bea-8582d1ef881f
+  - Id: TextPrinters/b14e7a2e-c915-4066-a765-b9f6a7430019
     Resources:
     - name: TMProBubble
       pathPrefix: TextPrinters
       guid: 18cfa78b5fc89b745ba69d51a6a8629a
-  - Id: ChoiceHandlers/02c01a72-125e-4aae-925f-290f7d5b429c
+  - Id: ChoiceHandlers/02eea23b-95e0-4860-9fa3-7198e29a8aa1
     Resources:
     - name: ButtonList
       pathPrefix: ChoiceHandlers
       guid: 1f6aa29000e839c409e6a9c0704adc96
-  - Id: ChoiceHandlers/7f13dc69-333c-4f3e-9b14-5f13b2c5d772
+  - Id: ChoiceHandlers/9d359e97-a3fb-4a7b-bb51-4c01cc991224
     Resources:
     - name: ButtonArea
       pathPrefix: ChoiceHandlers
@@ -156,3 +156,31 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: StartStory
+      pathPrefix: Scripts
+      guid: 7fc2cba28f8a7a845803dbe80a8d1cf6
+  - Id: Characters/3d19ceb4-90e5-45fb-b78b-c5af341eadd1
+    Resources:
+    - name: default
+      pathPrefix: Characters/myself
+      guid: 85b05c1c475dc1341bc96f9ecc23c8e7
+  - Id: Characters/2893f810-c9ed-42a3-b346-1612e6698bff
+    Resources:
+    - name: default
+      pathPrefix: Characters/black_ghost
+      guid: 662940ef62027344e868a4a5c54c0a13
+  - Id: Characters/c82d279d-c649-48d4-92db-6d5301d06815
+    Resources:
+    - name: default
+      pathPrefix: Characters/white_ghost
+      guid: 175a00acd7ae7124fa042a57af99744e
+  - Id: Backgrounds/67a0a023-ab91-4f09-afac-76ba042cece5
+    Resources:
+    - name: hell
+      pathPrefix: Backgrounds/MainBackground
+      guid: c10955f409ccb6c43905881bb5c65c8b
+    - name: office
+      pathPrefix: Backgrounds/MainBackground
+      guid: a039c14ddb01be44db9859857465d1e4
