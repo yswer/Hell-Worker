@@ -45,9 +45,10 @@ GameObject:
   - component: {fileID: 1722485712686656863}
   - component: {fileID: 6349023131717506463}
   - component: {fileID: 8928302261002444842}
+  - component: {fileID: 4802415792587689200}
   m_Layer: 0
   m_Name: Trainee
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,6 +129,27 @@ MonoBehaviour:
   damagePerAttack: 10
   attackInterval: 1
   spawnManager: {fileID: 0}
+--- !u!50 &4802415792587689200
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517745139160249660}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &610582196710792014
 GameObject:
   m_ObjectHideFlags: 0
