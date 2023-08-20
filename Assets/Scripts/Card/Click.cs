@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,8 @@ public class Click : MonoBehaviour
     {
         CardMgr = GameObject.Find("CardManager").GetComponent<CardManager>();
     }
+    
+
     public void OnButtonClicked()
     {
         CardMgr.UseSkill(gameObject.name);

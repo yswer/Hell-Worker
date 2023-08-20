@@ -66,11 +66,12 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        var shootPosition = transform.position + new Vector3(-0.08000183f, 5.51f, 0f);
         // 创建子弹
-        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, shootPosition, Quaternion.identity);
 
         // 计算子弹的移动方向
-        Vector3 shootDirection = (closestEnemy.position - transform.position).normalized;
+        Vector3 shootDirection = (closestEnemy.position - shootPosition).normalized;
         
         // 设置子弹的伤害
         bullet.GetComponent<Bullet>().damage = damage;

@@ -9,6 +9,7 @@ TagManager:
   - Card2
   - Card1
   - Card3
+  - Spawn
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
+  - Plane
   - 
   - 
   - 
