@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform target; // 玩家的 Transform
-    public float smoothSpeed = 0.125f;
+    public float smoothSpeed = 0.01f;
     public Vector3 offset;
 
     private float originalZ;
@@ -23,6 +23,6 @@ public class CameraFollow : MonoBehaviour
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
 
-        transform.LookAt(target);
+        // transform.LookAt(target);
     }
 }
