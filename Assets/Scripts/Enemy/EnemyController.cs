@@ -28,7 +28,6 @@ public class EnemyController : MonoBehaviour
             if (spawnManager.enemies == 0)
             {
                 if(spawnManager.numOfSpawn > 0) spawnManager.SpawnEnemy();
-                else spawnManager.gameFinished = true;
             }
         }
         // 计算朝向玩家的方向
