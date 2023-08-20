@@ -206,7 +206,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &370132970
 MonoBehaviour:
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e50ee9ef23cd5f44b0b88b212fd1f0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 2018418193}
+  target: {fileID: 0}
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: 0}
 --- !u!1 &490756219
@@ -658,13 +658,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1858064382035621319, guid: 3b05adaf69147a343a08a0dd76dcabba, type: 3}
-  playerTransform: {fileID: 2018418193}
+  playerTransform: {fileID: 0}
   numberOfEnemiesToSpawn: 10
   spawnRadius: 10
   enemies: 0
   numOfSpawn: 5
-  droppedItem: {fileID: 734841031}
-  gameFinished: 0
 --- !u!4 &947939065
 Transform:
   m_ObjectHideFlags: 0
@@ -690,7 +688,7 @@ PrefabInstance:
     - target: {fileID: 4776733984766226321, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: CardMgr
       value: 
-      objectReference: {fileID: 2004796454}
+      objectReference: {fileID: 0}
     - target: {fileID: 7172069878689634872, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1079,7 +1077,7 @@ PrefabInstance:
     - target: {fileID: 4776733984766226321, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: CardMgr
       value: 
-      objectReference: {fileID: 2004796454}
+      objectReference: {fileID: 0}
     - target: {fileID: 7172069878689634872, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1191,7 +1189,7 @@ PrefabInstance:
     - target: {fileID: 4776733984766226321, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: CardMgr
       value: 
-      objectReference: {fileID: 2004796454}
+      objectReference: {fileID: 0}
     - target: {fileID: 7172069878689634872, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1282,66 +1280,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
---- !u!1 &2004796453
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2004796455}
-  - component: {fileID: 2004796454}
-  m_Layer: 0
-  m_Name: CardManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2004796454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004796453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 297e9c0e4e4cc0c438f64753b23c4b2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  card1Prefab: {fileID: 1032331556347345495, guid: dd8593d9d4d080545957c582c5df75f4, type: 3}
-  card2Prefab: {fileID: 8632240247376013213, guid: c52092fd8d32b574c9329b801fa43248, type: 3}
-  card3Prefab: {fileID: 5126371834851212167, guid: de52215238176374fa870580457aaf11, type: 3}
-  card4Prefab: {fileID: 5336254405555603352, guid: 22f7a4c48b81a73418f19e65e7a1814b, type: 3}
-  playerTransform: {fileID: 2018418193}
-  spawnRadius: 5
-  spawnInterval: 5
-  skill1Duration: 10
-  skill2Duration: 10
-  skill4Duration: 10
-  cardCounters: 00000000000000000000000000000000
---- !u!4 &2004796455
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004796453}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.80752, y: 19.85231, z: 0.40704766}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2018418193 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3669583937183899264, guid: 7589a1cf2c66a16459f001784659c010, type: 3}
-  m_PrefabInstance: {fileID: 3669583938925215889}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2103792754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1352,7 +1290,7 @@ PrefabInstance:
     - target: {fileID: 4776733984766226321, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: CardMgr
       value: 
-      objectReference: {fileID: 2004796454}
+      objectReference: {fileID: 0}
     - target: {fileID: 7172069878689634872, guid: b41d709d6e34e8b4dae3383ded28d946, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

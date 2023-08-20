@@ -5,45 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31626a3e-c90c-4663-9204-3f581312e62f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Naninovel/Runtime/UI/Toast.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Naninovel/Runtime/UI/Toast.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/AudioConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/AudioConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/BackgroundsConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/BackgroundsConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/CameraConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/CameraConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/CharactersConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/CharactersConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/ChoiceHandlersConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/ChoiceHandlersConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/CustomVariablesConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/CustomVariablesConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/EngineConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/EngineConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/LocalizationConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/LocalizationConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/ScriptPlayerConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/ScriptPlayerConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/ScriptsConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/ScriptsConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/SpawnConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/SpawnConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/TextPrintersConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/TextPrintersConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/UIConfiguration.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/UIConfiguration.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Saves.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Saves/GlobalSave.nson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Saves/GlobalSave.nson.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Saves/Settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Saves/Settings.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartStory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartStory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hell-Worker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hell-Worker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/update1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/update1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Card/Click.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Card/Click.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/DontDestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "feature",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,7 +55,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="附加到 Unity 编辑器.附加到 Unity 编辑器">
+  <component name="RunManager" selected="独立播放器.启动 Unity">
     <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\unityHub\unity2021\2021.3.27f1c2\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\unity-proj\Hell-Worker -debugCodeOptimization" />

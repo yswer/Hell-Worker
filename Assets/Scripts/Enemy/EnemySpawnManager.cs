@@ -7,7 +7,7 @@ public class EnemySpawnManager : MonoBehaviour
     public GameObject enemyPrefab;
     public Transform playerTransform;
     public int numberOfEnemiesToSpawn = 10;
-    public float spawnRadius = 5.0f;
+    public float spawnRadius = 20.0f;
     public int enemies = 0;
     public int numOfSpawn = 5;
 
@@ -25,11 +25,25 @@ public class EnemySpawnManager : MonoBehaviour
             // 随机生成一个位置
             Vector3 randomPosition = playerTransform.position + Random.insideUnitSphere * spawnRadius;
             randomPosition.z = 0.0f;
+            
+            
+            // 检测位置是否在Plane图层上
+            // LayerMask planeLayerMask = LayerMask.GetMask("Plane");
+            // bool positionValid = Physics.Raycast(randomPosition + Vector3.forward * 10f, Vector3.back, Mathf.Infinity, planeLayerMask);
+            //
+            // if (!positionValid)
+            // {
+            //     // 如果位置不在Plane图层上，重新生成位置
+            //     Debug.Log("not in plane");
+            //     continue;
+            // }
 
+            
             // 实例化敌人Prefab
             GameObject enemyInstance = Instantiate(enemyPrefab, randomPosition, Quaternion.identity);
             enemies++;
 
+            
             // 获取生成的敌人的敌人控制脚本（假设脚本名为 EnemyController）
             EnemyController enemyController = enemyInstance.GetComponent<EnemyController>();
 

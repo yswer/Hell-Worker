@@ -20,12 +20,13 @@ public class CardManager : MonoBehaviour
     void Start()
     {
         Player = GameObject.Find("Player").GetComponent<PlayerController>();
-
+        playerTransform = Player.transform;
         InvokeRepeating("SpawnRandomCard", 0.0f, spawnInterval);
     }
 
     void SpawnRandomCard()
     {
+        Debug.Log("SpawnRandomCard");
         Vector3 randomPosition = GetRandomSpawnPosition();
         randomPosition.z = 0.0f; // 将 Z 值设置为 0
         GameObject randomCardPrefab = GetRandomCardPrefab();
@@ -55,19 +56,19 @@ public class CardManager : MonoBehaviour
         // int index;
         switch (buttonName)
         {
-            case "Button1":
+            case "PatButton":
                 Skill1();
                 cardCounters[0] = 0;
                 break;
-            case "Button2":
+            case "AttackButton":
                 Skill2();
                 cardCounters[1] = 0;
                 break;
-            case "Button3":
+            case "FoodButton":
                 Skill3();
                 cardCounters[2] = 0;
                 break;
-            case "Button4":
+            case "CakeButton":
                 Skill4();
                 cardCounters[3] = 0;
                 break;
