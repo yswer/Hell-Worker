@@ -81,5 +81,7 @@ public class PlayerController : MonoBehaviour
 
         // 更新上次发射时间
         lastShootTime = Time.time;
+
+        Debug.Log("bullet shoot");
     }
 }

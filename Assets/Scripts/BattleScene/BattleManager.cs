@@ -18,6 +18,10 @@ public class BattleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(enemySpawnManager.numOfSpawn <=0 && enemySpawnManager.enemies == 0) battleEnd = true;
+        if(battleEnd)
+        {
 
+        }
     }
 }
