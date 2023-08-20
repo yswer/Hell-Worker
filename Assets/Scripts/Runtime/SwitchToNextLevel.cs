@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SwitchToNextLevel : MonoBehaviour
 {
+    private BattleManager battleManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        battleManager = GameObject.Find("Battle").GetComponent<BattleManager>();
     }
 
     // Update is called once per frame
@@ -20,6 +21,7 @@ public class SwitchToNextLevel : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // buildIndex ——build settings中的idx
-        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
+        if(battleManager.BattleEnd())
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

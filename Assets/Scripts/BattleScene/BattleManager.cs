@@ -37,4 +37,9 @@ public class BattleManager : MonoBehaviour
         //     // target.sortingOrder = i++;
         // }
     }
+
+    public bool BattleEnd()
+    {
+        return battleEnd;
+    }
 }

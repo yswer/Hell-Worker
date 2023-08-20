@@ -13,17 +13,16 @@ public class EnemyController : MonoBehaviour
     
     private EnemySpawnManager spawnManager;
     private bool canAttack = true;
-    // private EnemySpawnManager spawnManager;
 
-    private void Start()
-    {
-        spawnManager = GameObject.Find("Enemy").GetComponent<EnemySpawnManager>();
-    }
-
-    // void Start()
-    // {        
+    // private void Start()
+    // {
     //     spawnManager = GameObject.Find("Enemy").GetComponent<EnemySpawnManager>();
     // }
+
+    void Start()
+    {        
+        spawnManager = GameObject.Find("Enemy").GetComponent<EnemySpawnManager>();
+    }
 
     void Update()
     {
@@ -36,6 +35,7 @@ public class EnemyController : MonoBehaviour
                 if(spawnManager.numOfSpawn > 0) spawnManager.SpawnEnemy();
             }
         }
+        player = GameObject.Find("Player").GetComponent<Transform>();
         // 计算朝向玩家的方向
         Vector3 moveDirection = (player.position - transform.position).normalized;
 

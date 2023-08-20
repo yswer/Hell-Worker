@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class EnemySpawnManager : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    public GameObject enemyPrefab1;
+    public GameObject enemyPrefab2;
+    public GameObject enemyPrefab3;
+    private GameObject enemyPrefab;
     public Transform playerTransform;
     public int numberOfEnemiesToSpawn = 10;
     public float spawnRadius = 20.0f;
@@ -20,6 +23,29 @@ public class EnemySpawnManager : MonoBehaviour
         
     public void SpawnEnemy()
     {
+        switch(numOfSpawn)
+        {
+            case 5: {
+                enemyPrefab = enemyPrefab1;
+                break;
+            }
+            case 4: {
+                enemyPrefab = enemyPrefab2;
+                break;
+            }
+            case 3: {
+                enemyPrefab = enemyPrefab1;
+                break;
+            }
+            case 2: {
+                enemyPrefab = enemyPrefab2;
+                break;
+            }
+            case 1: {
+                enemyPrefab = enemyPrefab3;
+                break;
+            }
+        }
         for (int i = 0; i < numberOfEnemiesToSpawn; i++)
         {
             // 随机生成一个位置
