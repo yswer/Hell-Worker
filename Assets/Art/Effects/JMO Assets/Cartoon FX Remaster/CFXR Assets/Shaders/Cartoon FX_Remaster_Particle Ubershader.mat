@@ -7,18 +7,16 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: cfxr stretch trait hdr ab nosp
+  m_Name: Cartoon FX_Remaster_Particle Ubershader
   m_Shader: {fileID: 4800000, guid: e198026df304af84a85675be636192ea, type: 3}
   m_ValidKeywords:
   - _ALPHABLEND_ON
-  - _CFXR_HDR_BOOST
-  - _CFXR_SINGLE_CHANNEL
   m_InvalidKeywords:
   - _
   - _CFXR_DITHERED_SHADOWS_OFF
   - _CFXR_OVERLAYBLEND_RGBA
   - _CFXR_OVERLAYTEX_OFF
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -44,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1e6cfbe081305c449863b34516c70501, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4c8d501da3ed02347bba8a362575cd79, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OverlayTex:
@@ -72,16 +70,14 @@ Material:
     - _DstBlend: 10
     - _EdgeFadePow: 1
     - _FadeAlongU: 0
-    - _HdrBoost: 1
-    - _HdrMultiply: 6
+    - _HdrBoost: 0
+    - _HdrMultiply: 2
     - _IndirectLightingMix: 0.5
     - _InvertDissolveTex: 0
     - _LightingWorldPosStrength: 0.2
-    - _OVERLAYBLEND: 0
-    - _OVERLAYTEX: 0
     - _SecondColorSmooth: 0.2
     - _ShadowStrength: 1
-    - _SingleChannel: 1
+    - _SingleChannel: 0
     - _SoftParticlesFadeDistanceFar: 1
     - _SoftParticlesFadeDistanceNear: 0
     - _SrcBlend: 5
@@ -105,8 +101,6 @@ Material:
     m_Colors:
     - _DissolveScroll: {r: 0, g: 0, b: 0, a: 0}
     - _DistortScrolling: {r: 0, g: 0, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _OverlayTex_Scroll: {r: 0.1, g: 0.1, b: 1, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SoftParticlesFadeDistance: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
