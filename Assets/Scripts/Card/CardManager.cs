@@ -52,7 +52,7 @@ public class CardManager : MonoBehaviour
 
     public void UseSkill(string buttonName)
     {
-        int index;
+        // int index;
         switch (buttonName)
         {
             case "Button1":

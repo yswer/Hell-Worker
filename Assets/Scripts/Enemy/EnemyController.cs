@@ -10,7 +10,14 @@ public class EnemyController : MonoBehaviour
     public float health = 10.0f;
     public int damagePerAttack = 10;
     public float attackInterval = 1.0f; // 攻击间隔
+    
+    private EnemySpawnManager spawnManager;
     private bool canAttack = true;
+
+    void Start()
+    {        
+        spawnManager = GameObject.Find("Enemy").GetComponent<EnemySpawnManager>();
+    }
 
     void Update()
     {
