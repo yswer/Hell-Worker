@@ -6,7 +6,6 @@
 @resetText
 
 @printer Dialogue
-
 @char myself.default
 你抱着工位上的键盘，茫然地站在中央。
 @hide myself
@@ -80,7 +79,30 @@ myself: 还是算了，我不行……让我转世投胎吧。下一世再做出
 @back black
 [br 10]
 眼前一黑，你重返人间。这一次，你发誓——要狠狠反内卷。
+
+
+@back office
+
+@printer Fullscreen
+[br 10]
+这是一栋熟悉的办公楼。
+@resetText
+
+@printer Dialogue
+@char ox_head.default
+ox_head: 咱们地府的不能经常来到人间，不过毕竟你签了协议，也算是咱地府的人了。
+ox_head: 你的武器就是你最重要的东西，连下地府都要随身携带的……键盘？！！
+@char myself.default
+myself: 怎会如此……我要怎么用键盘清理内卷之力？
+ox_head: 不是不告，时候未到！等到了你自然会知晓！你的身体会自动做出反应的。何况躺平之力正在庇佑你。
+ox_head: 躺平之力会庇佑你的！
+myself: 躺平之力……那是什么？
+ox_head: 和内卷之力相抗衡的东西。总之，你先前进把那张卡牌捡起来，随着卡牌种类和等级的增加，你身上的躺平之力也会越来越强。
+ox_head: 至于它的使用方式，也相当躺平！只需轻轻一点，便足以释放。
+ox_head: 开始清理吧，加油，打工人！
+
 @hideUI
 @hideAll
-@loadScene demo
+@loadScene demo 
 @stop
+

@@ -9,13 +9,28 @@ public class EnemySpawnManager : MonoBehaviour
     public int numberOfEnemiesToSpawn = 10;
     public float spawnRadius = 5.0f;
     public int enemies = 0;
+    public int numOfSpawn = 5;
+
+    public GameObject droppedItem;
+    public bool gameFinished = false;
 
     void Start()
     {
         // 在游戏开始时生成怪物
         SpawnEnemy();
+        droppedItem.SetActive(false);
+        Debug.Log("隐藏掉落物品");
     }
     
+    void Update()
+    {
+        if(gameFinished == true)
+        {
+            Debug.Log("战斗结束");
+            droppedItem.SetActive(true);
+            Debug.Log("掉落物品");
+        }
+    }
     
     public void SpawnEnemy()
     {
@@ -38,5 +53,6 @@ public class EnemySpawnManager : MonoBehaviour
                 enemyController.player = playerTransform;
             }
         }
+        --numOfSpawn;
     }
 }

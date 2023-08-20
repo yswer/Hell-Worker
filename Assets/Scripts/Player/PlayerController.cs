@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         FindClosestEnemy();
+        
 
         // 检查是否需要发射子弹
         if (Time.time - lastShootTime >= shootInterval && closestEnemy != null)

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1858064382035621339}
   - component: {fileID: 1858064382035621316}
   - component: {fileID: 1858064382035621318}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -126,5 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   moveSpeed: 1
+  health: 10
   damagePerAttack: 10
   attackInterval: 1
+  spawnManager: {fileID: 0}

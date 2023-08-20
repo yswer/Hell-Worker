@@ -160,15 +160,21 @@ MonoBehaviour:
     Resources:
     - name: hell
       pathPrefix: Backgrounds/MainBackground
-      guid: c10955f409ccb6c43905881bb5c65c8b
+      guid: c8bad22dd0e92a142b8258c2f67ac8d7
     - name: black
       pathPrefix: Backgrounds/MainBackground
       guid: a039c14ddb01be44db9859857465d1e4
+    - name: office
+      pathPrefix: Backgrounds/MainBackground
+      guid: c10955f409ccb6c43905881bb5c65c8b
   - Id: Scripts
     Resources:
     - name: StartStory
       pathPrefix: Scripts
       guid: 7fc2cba28f8a7a845803dbe80a8d1cf6
+    - name: NewScript
+      pathPrefix: Scripts
+      guid: fb5494ac814fb3c479cd494503532220
   - Id: Audio
     Resources: []
   - Id: Characters/9f5ef97b-19ef-400d-8472-fccdf835b9c5

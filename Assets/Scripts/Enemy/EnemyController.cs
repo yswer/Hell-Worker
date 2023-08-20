@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     public EnemySpawnManager spawnManager;
     private bool canAttack = true;
 
+
     private void Start()
     {
         spawnManager = GameObject.Find("EnemySpawnManager").GetComponent<EnemySpawnManager>();
@@ -26,7 +27,8 @@ public class EnemyController : MonoBehaviour
             spawnManager.enemies--;
             if (spawnManager.enemies == 0)
             {
-                spawnManager.SpawnEnemy();
+                if(spawnManager.numOfSpawn > 0) spawnManager.SpawnEnemy();
+                else spawnManager.gameFinished = true;
             }
         }
         // 计算朝向玩家的方向

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3669583937183899294}
   - component: {fileID: 3669583937183899266}
   - component: {fileID: 3669583937183899267}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -100,6 +100,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  health: 100
+  energy: 7
+  damage: 10
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 10
+  shootInterval: 1
 --- !u!50 &3669583937183899266
 Rigidbody2D:
   serializedVersion: 4
