@@ -163,7 +163,7 @@ MonoBehaviour:
       guid: c8bad22dd0e92a142b8258c2f67ac8d7
     - name: black
       pathPrefix: Backgrounds/MainBackground
-      guid: a039c14ddb01be44db9859857465d1e4
+      guid: c10955f409ccb6c43905881bb5c65c8b
     - name: office
       pathPrefix: Backgrounds/MainBackground
       guid: c10955f409ccb6c43905881bb5c65c8b
@@ -181,12 +181,12 @@ MonoBehaviour:
     Resources:
     - name: default
       pathPrefix: Characters/horse_face
-      guid: 175a00acd7ae7124fa042a57af99744e
+      guid: 2cd650d918aeca84ca16f9b508db4780
   - Id: Characters/8e39bf8e-7c00-41d9-89cc-609001f762e3
     Resources:
     - name: default
       pathPrefix: Characters/ox_head
-      guid: 662940ef62027344e868a4a5c54c0a13
+      guid: ca778ca52bd4bb44fb670ad9fe27880e
   - Id: Characters/5e2f2363-337b-44aa-8585-4bb741704787
     Resources:
     - name: default

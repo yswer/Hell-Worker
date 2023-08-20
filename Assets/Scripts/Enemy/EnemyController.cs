@@ -13,17 +13,17 @@ public class EnemyController : MonoBehaviour
     
     private EnemySpawnManager spawnManager;
     private bool canAttack = true;
-    private EnemySpawnManager spawnManager;
+    // private EnemySpawnManager spawnManager;
 
     private void Start()
     {
         spawnManager = GameObject.Find("Enemy").GetComponent<EnemySpawnManager>();
     }
 
-    void Start()
-    {        
-        spawnManager = GameObject.Find("Enemy").GetComponent<EnemySpawnManager>();
-    }
+    // void Start()
+    // {        
+    //     spawnManager = GameObject.Find("Enemy").GetComponent<EnemySpawnManager>();
+    // }
 
     void Update()
     {

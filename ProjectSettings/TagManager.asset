@@ -55,3 +55,9 @@ TagManager:
   - name: Characters
     uniqueID: 3473737129
     locked: 0
+  - name: Card
+    uniqueID: 2642484629
+    locked: 0
+  - name: FrontItem
+    uniqueID: 283418631
+    locked: 0
