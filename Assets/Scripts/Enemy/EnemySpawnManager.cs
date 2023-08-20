@@ -15,21 +15,9 @@ public class EnemySpawnManager : MonoBehaviour
     void Start()
     {
         // 在游戏开始时生成怪物
-        // SpawnEnemy();
-        // droppedItem.SetActive(false);
-        // Debug.Log("隐藏掉落物品");
+        SpawnEnemy();
     }
-    
-    void Update()
-    {
-        // if(gameFinished == true)
-        // {
-        //     Debug.Log("战斗结束");
-        //     droppedItem.SetActive(true);
-        //     Debug.Log("掉落物品");
-        // }
-    }
-    
+        
     public void SpawnEnemy()
     {
         for (int i = 0; i < numberOfEnemiesToSpawn; i++)

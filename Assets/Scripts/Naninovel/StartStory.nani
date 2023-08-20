@@ -103,6 +103,6 @@ ox_head: 开始清理吧，加油，打工人！
 
 @hideUI
 @hideAll
-@loadScene demo 
+@loadScene Battle_1
 @stop
 

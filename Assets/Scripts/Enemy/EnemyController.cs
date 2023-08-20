@@ -10,14 +10,7 @@ public class EnemyController : MonoBehaviour
     public float health = 10.0f;
     public int damagePerAttack = 10;
     public float attackInterval = 1.0f; // 攻击间隔
-    public EnemySpawnManager spawnManager;
     private bool canAttack = true;
-
-
-    private void Start()
-    {
-        spawnManager = GameObject.Find("Enemy").GetComponent<EnemySpawnManager>();
-    }
 
     void Update()
     {
@@ -43,7 +36,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    // 检查是否与玩家重合
+    // 检查是否与玩家重合............................可能需要重写，cllider太小
     bool IsCollidingWithPlayer()
     {
         Collider2D col = GetComponent<Collider2D>();
