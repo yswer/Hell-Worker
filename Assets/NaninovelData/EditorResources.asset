@@ -156,3 +156,8 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Characters/e31d7669-83b2-4ff1-8f75-f390ab43dac1
+    Resources:
+    - name: default
+      pathPrefix: Characters/woman
+      guid: 78a0e6e01b99cae469f805c96be150c0

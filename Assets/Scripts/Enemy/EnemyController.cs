@@ -30,7 +30,7 @@ public class EnemyController : MonoBehaviour
         {
             Destroy(gameObject);
             spawnManager.enemies--;
-            if (spawnManager.enemies == 0)
+            if (spawnManager.enemies <= 0)
             {
                 // if(spawnManager.numOfSpawn > 0) spawnManager.SpawnEnemy();
                 if(spawnManager.numOfSpawn > 0) spawnManager.SpawnEnemyFromPoint();

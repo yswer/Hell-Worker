@@ -142,6 +142,7 @@ public class CardManager : MonoBehaviour
         {
             Debug.Log("Skill3");
             Player.health += 10.0f * cardCounters[2];
+            if(Player.health > 100.0f) Player.health = 100.0f;
         }
     }
     // 眩晕

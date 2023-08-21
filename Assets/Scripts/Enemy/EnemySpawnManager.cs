@@ -29,6 +29,7 @@ public class EnemySpawnManager : MonoBehaviour
     
     public void SpawnEnemyFromPoint()
     {
+        // Debug.Log("生成怪物");
         if(numOfSpawn == 0) return;
         numOfSpawn--;
         // foreach(var point in spawnPoints)
@@ -39,6 +40,7 @@ public class EnemySpawnManager : MonoBehaviour
         for (int i = 0; i < 10; i++)
         {
             spawnPoints[i].gameObject.GetComponent<SpawnPoint>().Spawn();
+            enemies++;
         }
     }
 

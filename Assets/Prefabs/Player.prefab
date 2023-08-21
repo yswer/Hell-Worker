@@ -1061,8 +1061,8 @@ MonoBehaviour:
   - {fileID: 7691587150416361837}
   - {fileID: 6653192828973123404}
   m_Bounds:
-    m_Center: {x: 0.0021061897, y: -0.0009050369, z: 0}
-    m_Extent: {x: 2.7878947, y: 2.9861455, z: 0}
+    m_Center: {x: 0.0021061897, y: -0.0009069443, z: 0}
+    m_Extent: {x: 2.7878947, y: 2.9861474, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1266,8 +1266,8 @@ MonoBehaviour:
   - {fileID: 2015696431089487858}
   - {fileID: 2256008455864259187}
   m_Bounds:
-    m_Center: {x: 0.0022898912, y: -0.024745762, z: 0}
-    m_Extent: {x: 1.28771, y: 0.63195425, z: 0}
+    m_Center: {x: 0.0022898912, y: -0.024751782, z: 0}
+    m_Extent: {x: 1.28771, y: 0.63195586, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1644,8 +1644,6 @@ GameObject:
   - component: {fileID: 7993033090176081666}
   - component: {fileID: 7993033090176081667}
   - component: {fileID: 7993033090176081664}
-  - component: {fileID: 7409293407086357641}
-  - component: {fileID: 1952239214849864292}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -1768,30 +1766,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8795377527822202777, guid: 6c02f95f2626a1d47bf3a9133d248819, type: 3}
   bulletSpeed: 10
   shootInterval: 1
---- !u!114 &7409293407086357641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7569208336424238402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46443678520f19147bd4644bcd20ed93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sub_layer: 0
---- !u!210 &1952239214849864292
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7569208336424238402}
-  m_Enabled: 1
-  m_SortingLayerID: -821230167
-  m_SortingLayer: 3
-  m_SortingOrder: 1
 --- !u!1 &7723215891754043478
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,8 +2105,8 @@ MonoBehaviour:
   - {fileID: 3401802622235107924}
   - {fileID: 4316981486774310601}
   m_Bounds:
-    m_Center: {x: 0.0014281273, y: -0.000315547, z: 0}
-    m_Extent: {x: 2.4473648, y: 1.2653852, z: 0}
+    m_Center: {x: 0.0014281273, y: -0.00031220913, z: 0}
+    m_Extent: {x: 2.4473648, y: 1.2653809, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -2277,8 +2251,8 @@ MonoBehaviour:
   - {fileID: 8441220280830557335}
   - {fileID: 1759953444749717976}
   m_Bounds:
-    m_Center: {x: 0.02831459, y: 0.0050001144, z: 0}
-    m_Extent: {x: 3.3083074, y: 4.905002, z: 0}
+    m_Center: {x: 0.02831459, y: 0.005001068, z: 0}
+    m_Extent: {x: 3.3083074, y: 4.905003, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
