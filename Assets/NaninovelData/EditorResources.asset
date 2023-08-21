@@ -160,7 +160,7 @@ MonoBehaviour:
     Resources:
     - name: default
       pathPrefix: Characters/woman
-      guid: 78a0e6e01b99cae469f805c96be150c0
+      guid: 1c5897deb10cacb4f99c1740126cbb13
   - Id: Scripts
     Resources:
     - name: StartStory
@@ -198,14 +198,14 @@ MonoBehaviour:
     Resources:
     - name: default
       pathPrefix: Characters/horse_face
-      guid: 2cd650d918aeca84ca16f9b508db4780
+      guid: f4970c84a80f1a246a049f912a430391
   - Id: Characters/8e39bf8e-7c00-41d9-89cc-609001f762e3
     Resources:
     - name: default
       pathPrefix: Characters/ox_head
-      guid: ca778ca52bd4bb44fb670ad9fe27880e
+      guid: bc893b4697f0bd54dabc67e38ef2160f
   - Id: Characters/5e2f2363-337b-44aa-8585-4bb741704787
     Resources:
     - name: default
       pathPrefix: Characters/myself
-      guid: 
+      guid: b382da3176188f847927eec4e4c729bc
