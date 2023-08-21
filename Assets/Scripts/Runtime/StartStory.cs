@@ -21,7 +21,7 @@ public class StartStory : MonoBehaviour
     async void AsyncStart()
     {
         await RuntimeInitializer.InitializeAsync();
-        canvas.worldCamera = GameObject.Find("UICamera").GetComponent<Camera>();
+        // canvas.worldCamera = GameObject.Find("UICamera").GetComponent<Camera>();
     }
 
     async void AsyncClick()
