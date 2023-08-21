@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<Transform>();
         // 计算朝向玩家的方向
         Vector3 moveDirection = (player.position - transform.position).normalized;
-
+        Debug.Log("移动" + moveDirection * moveSpeed * Time.deltaTime);
         // 移动敌人朝向玩家
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
 
