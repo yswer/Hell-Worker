@@ -153,7 +153,7 @@ public class CardManager : MonoBehaviour
         if (cardCounters[2] > 0)
         {
             Debug.Log("Skill3");
-            StartCoroutine(ChangeAnimator("is recove"));
+            StartCoroutine(ChangeAnimator("is recover"));
             Player.health += 10.0f * cardCounters[2];
             if(Player.health > 100.0f) Player.health = 100.0f;
 
