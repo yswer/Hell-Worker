@@ -121,8 +121,10 @@ public class CardManager : MonoBehaviour
         if (cardCounters[0] > 0)
         {
             Debug.Log("Skill1");
-
+            Player.GetComponent<Animator>().SetBool("is speed" , true);
             StartCoroutine(ChangePlayerSpeed(skill1Duration));
+            Player.GetComponent<Animator>().SetBool("is speed" , false);
+
         }
         
     }
@@ -141,7 +143,10 @@ public class CardManager : MonoBehaviour
         if (cardCounters[2] > 0)
         {
             Debug.Log("Skill3");
+            Player.GetComponent<Animator>().SetBool("is recove" , true);
+
             Player.health += 10.0f * cardCounters[2];
+            Player.GetComponent<Animator>().SetBool("is recove" , false);
         }
     }
     // 眩晕
