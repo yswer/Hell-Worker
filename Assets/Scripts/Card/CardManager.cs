@@ -150,9 +150,13 @@ public class CardManager : MonoBehaviour
         if (cardCounters[3] > 0)
         {
             Debug.Log("Skill4");
-            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Character");
             foreach (GameObject enemy in enemies)
             {
+                if (enemy.name == "Player")
+                {
+                    continue;
+                }
                 StartCoroutine(StunEffect(skill4Duration, enemy));
             }
         }
