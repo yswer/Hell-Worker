@@ -39,7 +39,7 @@ public class EnemyController : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<Transform>();
         // 计算朝向玩家的方向
         Vector3 moveDirection = (player.position - transform.position).normalized;
-        Debug.Log("移动" + moveDirection * moveSpeed * Time.deltaTime);
+        // Debug.Log("移动" + moveDirection * moveSpeed * Time.deltaTime);
         // 移动敌人朝向玩家
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
 
@@ -69,7 +69,7 @@ public class EnemyController : MonoBehaviour
         // 对玩家造成伤害的逻辑
         // 例如：调用玩家脚本的伤害函数
         // player.GetComponent<PlayerHealth>().TakeDamage(damagePerAttack);
-        Debug.Log("Hit");
+        Debug.Log("Enemy Hit");
         player.gameObject.GetComponent<PlayerController>().health -= damagePerAttack;
         yield return new WaitForSeconds(attackInterval);
 
