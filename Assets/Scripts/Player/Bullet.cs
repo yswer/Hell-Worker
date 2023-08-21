@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float damage = 10;
-    public float lifespan = 5.0f; // 子弹的寿命，单位为秒
+    public float lifespan = 2.0f; // 子弹的寿命，单位为秒
 
     private float startTime;
 

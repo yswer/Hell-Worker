@@ -4,11 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - Card4
   - Card2
   - Card1
   - Card3
+  - Card4
+  - SpawnPoint
+  - Character
+  - Enemy
   layers:
   - Default
   - TransparentFX

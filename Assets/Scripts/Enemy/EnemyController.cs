@@ -32,7 +32,8 @@ public class EnemyController : MonoBehaviour
             spawnManager.enemies--;
             if (spawnManager.enemies == 0)
             {
-                if(spawnManager.numOfSpawn > 0) spawnManager.SpawnEnemy();
+                // if(spawnManager.numOfSpawn > 0) spawnManager.SpawnEnemy();
+                if(spawnManager.numOfSpawn > 0) spawnManager.SpawnEnemyFromPoint();
             }
         }
         player = GameObject.Find("Player").GetComponent<Transform>();

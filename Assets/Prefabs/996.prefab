@@ -1967,7 +1967,7 @@ GameObject:
   - component: {fileID: 8872172219348445237}
   m_Layer: 6
   m_Name: 996
-  m_TagString: Enemy
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2085,7 +2085,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5810658713091947909}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b5acb47c9c57db44e86103fdc75390a9, type: 2}
   m_CullingMode: 0

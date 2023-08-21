@@ -14,19 +14,20 @@ public class CardPickUp : MonoBehaviour
     {
         if (CompareTag("Card1"))
         {
-            CardMgr.cardCounters[0]++;
+            
+            if(CardMgr.cardCounters[0]<5) CardMgr.cardCounters[0]++;
         }
         else if (CompareTag("Card2"))
         {
-            CardMgr.cardCounters[1]++;
+            if(CardMgr.cardCounters[1]<5) CardMgr.cardCounters[1]++;
         }
         else if (CompareTag("Card3"))
         {
-            CardMgr.cardCounters[2]++;
+            if(CardMgr.cardCounters[2]<5) CardMgr.cardCounters[2]++;
         }
         else if (CompareTag("Card4"))
         {
-            CardMgr.cardCounters[3]++;
+            if(CardMgr.cardCounters[3]<5) CardMgr.cardCounters[3]++;
         }
 
         Destroy(gameObject);
