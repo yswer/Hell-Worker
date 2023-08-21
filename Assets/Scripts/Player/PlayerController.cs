@@ -32,6 +32,11 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
+        if (health <= 0.0f)
+        {
+            gameObject.GetComponent<Animator>().SetBool("is died" , true);
+            
+        }
         FindClosestEnemy();
         
 
