@@ -167,6 +167,15 @@ MonoBehaviour:
     - name: office
       pathPrefix: Backgrounds/MainBackground
       guid: c10955f409ccb6c43905881bb5c65c8b
+    - name: home
+      pathPrefix: Backgrounds/MainBackground
+      guid: 461a6ed0b7d9ebc4ea14441ea023c992
+    - name: park
+      pathPrefix: Backgrounds/MainBackground
+      guid: caf19acd939be254194ea12874081108
+    - name: street
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8949da8e4f67e3b45baba5d2fcc44efe
   - Id: Scripts
     Resources:
     - name: StartStory
@@ -192,3 +201,10 @@ MonoBehaviour:
     - name: default
       pathPrefix: Characters/myself
       guid: 85b05c1c475dc1341bc96f9ecc23c8e7
+  - Id: Characters/1b30eff6-0782-41fc-823e-759082890ddc
+    Resources:
+    - name: default
+      pathPrefix: Characters/beggar
+      guid: 947fd7e9d43c4e1499f853dfbb78cf0a
+  - Id: Characters/e31d7669-83b2-4ff1-8f75-f390ab43dac1
+    Resources: []
