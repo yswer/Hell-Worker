@@ -198,14 +198,19 @@ MonoBehaviour:
     Resources:
     - name: default
       pathPrefix: Characters/horse_face
-      guid: f4970c84a80f1a246a049f912a430391
+      guid: bfb497802ce73fb43ad29e88b9b4f056
   - Id: Characters/8e39bf8e-7c00-41d9-89cc-609001f762e3
     Resources:
     - name: default
-      pathPrefix: Characters/ox_head
-      guid: bc893b4697f0bd54dabc67e38ef2160f
+      pathPrefix: Characters/default
+      guid: ca778ca52bd4bb44fb670ad9fe27880e
   - Id: Characters/5e2f2363-337b-44aa-8585-4bb741704787
     Resources:
     - name: default
       pathPrefix: Characters/myself
-      guid: b382da3176188f847927eec4e4c729bc
+      guid: 1cb94f356a66afb4b88dbc88f52cfc63
+  - Id: Characters/f64021af-c979-4db2-8e92-6bd8cbdeb929
+    Resources:
+    - name: default
+      pathPrefix: Characters/ox_head
+      guid: 1a7c6f445130bdb4192553a855f6ba31

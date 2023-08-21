@@ -32,15 +32,15 @@ MonoBehaviour:
     guid: 9f4b6953-4b04-421d-b79a-2b1bad2fe39c
     customData:
       rid: -2
-    Pivot: {x: 0.5, y: 0}
-    PixelsPerUnit: 100
+    Pivot: {x: 0, y: 0}
+    PixelsPerUnit: 50
     EnableDepthPass: 1
     DepthAlphaCutoff: 0.5
     CustomTextureShader: {fileID: 0}
     CustomSpriteShader: {fileID: 0}
     RenderTexture: {fileID: 0}
     CorrectRenderAspect: 1
-    BakedLookDirection: 1
+    BakedLookDirection: 0
     DisplayName: 
     UseCharacterColor: 0
     NameColor: {r: 1, g: 1, b: 1, a: 1}
@@ -59,49 +59,13 @@ MonoBehaviour:
     Poses: []
   Metadata:
     ids:
+    - default
     - myself
-    - ox_head
     - horse_face
     - beggar
     - woman
+    - ox_head
     metas:
-    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      Loader:
-        PathPrefix: Characters
-        ProviderTypes:
-        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      guid: 5e2f2363-337b-44aa-8585-4bb741704787
-      customData:
-        rid: -2
-      Pivot: {x: 0.5, y: 0}
-      PixelsPerUnit: 100
-      EnableDepthPass: 1
-      DepthAlphaCutoff: 0.5
-      CustomTextureShader: {fileID: 0}
-      CustomSpriteShader: {fileID: 0}
-      RenderTexture: {fileID: 0}
-      CorrectRenderAspect: 1
-      BakedLookDirection: 1
-      DisplayName: "\u4F60"
-      UseCharacterColor: 0
-      NameColor: {r: 1, g: 1, b: 1, a: 1}
-      MessageColor: {r: 1, g: 1, b: 1, a: 1}
-      HighlightWhenSpeaking: 1
-      HighlightCharacterCount: 1
-      SpeakingPose: "\u8BF4\u8BDD\u59FF\u52BF"
-      NotSpeakingPose: "\u6CA1\u8BF4\u8BDD\u59FF\u52BF"
-      PlaceOnTop: 1
-      HighlightDuration: 0.35
-      HighlightEasing: 1
-      MessageSound: 
-      ClipMessageSound: 1
-      VoiceSource: {fileID: 0}
-      LinkedPrinter: 
-      Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -131,6 +95,43 @@ MonoBehaviour:
       HighlightCharacterCount: 0
       SpeakingPose: 
       NotSpeakingPose: 
+      PlaceOnTop: 1
+      HighlightDuration: 0.35
+      HighlightEasing: 1
+      MessageSound: 
+      ClipMessageSound: 1
+      VoiceSource: {fileID: 0}
+      LinkedPrinter: 
+      Poses: []
+    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Characters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 5e2f2363-337b-44aa-8585-4bb741704787
+      customData:
+        rid: -2
+      Pivot: {x: 0.5, y: 0}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      BakedLookDirection: 1
+      DisplayName: "\u4F60"
+      UseCharacterColor: 0
+      NameColor: {r: 1, g: 1, b: 1, a: 1}
+      MessageColor: {r: 1, g: 1, b: 1, a: 1}
+      HighlightWhenSpeaking: 1
+      HighlightCharacterCount: 1
+      SpeakingPose: "\u8BF4\u8BDD\u59FF\u52BF"
+      NotSpeakingPose: "\u6CA1\u8BF4\u8BDD\u59FF\u52BF"
       PlaceOnTop: 1
       HighlightDuration: 0.35
       HighlightEasing: 1
@@ -235,6 +236,43 @@ MonoBehaviour:
       CorrectRenderAspect: 1
       BakedLookDirection: 1
       DisplayName: "\u6194\u60B4\u7684\u5973\u4EBA"
+      UseCharacterColor: 0
+      NameColor: {r: 1, g: 1, b: 1, a: 1}
+      MessageColor: {r: 1, g: 1, b: 1, a: 1}
+      HighlightWhenSpeaking: 1
+      HighlightCharacterCount: 0
+      SpeakingPose: 
+      NotSpeakingPose: 
+      PlaceOnTop: 1
+      HighlightDuration: 0.35
+      HighlightEasing: 1
+      MessageSound: 
+      ClipMessageSound: 1
+      VoiceSource: {fileID: 0}
+      LinkedPrinter: 
+      Poses: []
+    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Characters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: f64021af-c979-4db2-8e92-6bd8cbdeb929
+      customData:
+        rid: -2
+      Pivot: {x: 0.5, y: 0}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      BakedLookDirection: 1
+      DisplayName: "\u725B\u5934"
       UseCharacterColor: 0
       NameColor: {r: 1, g: 1, b: 1, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
