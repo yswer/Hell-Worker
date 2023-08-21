@@ -1,0 +1,106 @@
+@back home
+
+@printer Fullscreen
+[br 10]
+经过了5天的劳动，你终于迎来了休息日。虽然反内卷是你不太擅长的事情，但是这一切似乎都比工作要好太多。
+@resetText
+[br 10]
+久违的休息日到来，你决定——
+@resetText
+
+@choice "睡大觉" goto:.Sleep
+@choice "公园" goto:.Park
+@choice "商业街" goto:.Street
+@stop
+
+# Sleep
+@back home
+@printer Fullscreen
+[br 10]
+你陷入了柔软的床铺中，没有什么比窝在被窝里更舒服的事了。你沉沉地睡去，精力有所恢复。
+
+@stop
+
+# Park
+@back park
+@char myself.defaulr wait:false
+@char beggar.default
+
+myself: 你有手有脚，为什么在这里乞讨？
+beggar: 因为我36岁了。
+
+你想起来，自己死于34岁。一个尴尬的年纪。你总会到35岁的，被内卷影响得如此厉害的游戏行业是否容得下一个35岁的你，你也不知道。
+
+beggar: 何况，谁说我在乞讨？
+beggar: 我在这里享受微风、阳光和青草香，我不必遵循你们的规则，我是我自己的规则。
+
+@choice "你有钱吗" goto:.Park_money
+@choice "你快乐吗" goto:.Park_happy
+@stop
+
+# Park_money
+myself: 你很有钱吗？
+beggar: 没房没车，孤身一人。以天为被，以地为床。我睡在这长椅上，世界变成我的家乡。
+
+myself: 地府真该找你签合约……
+bagger: 给别人打工哪比得上自己当老板。我这儿有些宝贝，等到下次你来，说不定可以和我交换。
+myself: 还要等到下次，怪神秘的……
+
+@printer Fullscreen
+[br 10]
+在公园休憩了一会儿，你的精力有所恢复。
+
+@stop
+
+# Park_happy
+
+myself: 你快乐吗？
+beggar: 为什么不？
+beggar: 你也说了，我有手有脚，身体健全。人生不过几十年，开心全靠自己给。
+
+myself: 地府真该找你签合约……
+bagger: 给别人打工哪比得上自己当老板。我这儿有些宝贝，等到下次你来，说不定可以和我交换。
+myself: 还要等到下次，怪神秘的……
+
+@printer Fullscreen
+[br 10]
+在公园休憩了一会儿，你的精力有所恢复。
+
+@stop
+
+
+# Street
+@back street
+@char woman.default
+woman: 1米7、蓝校服、戴圆框眼镜，有没有人看到她……
+@char myself.default
+你刚走近便被这位憔悴的女人拉住了衣袖。
+woman: 1米7、蓝校服、戴圆框眼镜，你有没有看到我的小孩？
+
+@choice "见过" goto:.Street_Yes
+@choice "没有" goto:.Street_No
+@stop
+
+# Street_Yes
+myself: 她叫韩梅梅吗？
+woman: 是！是！你认识她？你知道她去哪了吗？她有没有跟你说她去哪了？
+myself: 我捡到过她的笔记。
+woman: 在哪！在哪！带我去看看好不好！
+myself: 就在附近。但你的女儿是离家出走了吗，还是报警比较好？
+woman: 她没有离家出走！她一直是最乖的孩子，她不可能离家出走！
+myself: 不过那个地方只在工作日开放，休息日进不去。你要不要先去周边看看？到时候我再帮你留意？
+@hide myself
+woman: 好、好……我再找找……1米7、蓝校服、戴圆框眼镜，有没有人看到我的孩子？
+
+@stop
+
+# Street_No
+myself: 没有见过。你的女儿是离家出走了吗，是不是报警比较好？
+woman: 她没有离家出走！她一直是最乖的孩子，超卷二中的优等生，她不可能离家出走！
+woman: 她一直是最乖的孩子……1米7、蓝校服、戴圆框眼镜，有没有人看到我的孩子？
+
+@printer Fullscreen
+[br 10]
+商业街人声鼎沸。这个女人的声音愈发微弱，你看了一会儿，稍微恢复了点精力。
+
+@stop
