@@ -82,7 +82,11 @@ public class CardManager : MonoBehaviour
         {
             Player.moveSpeed *= 1.5f;
         }
+        Player.GetComponent<Animator>().SetBool("is speed" , true);
+
         yield return new WaitForSeconds(delay);
+        Player.GetComponent<Animator>().SetBool("is speed" , false);
+
         Player.moveSpeed = beginSpeed;  
     }
     
@@ -120,10 +124,8 @@ public class CardManager : MonoBehaviour
     {
         if (cardCounters[0] > 0)
         {
-            Debug.Log("Skill1");
-            Player.GetComponent<Animator>().SetBool("is speed" , true);
+
             StartCoroutine(ChangePlayerSpeed(skill1Duration));
-            Player.GetComponent<Animator>().SetBool("is speed" , false);
 
         }
         
@@ -137,17 +139,24 @@ public class CardManager : MonoBehaviour
             StartCoroutine(ChangeShootInterval(skill2Duration));
         }
     }
+    IEnumerator ChangeAnimator(string name)
+    {
+        Player.GetComponent<Animator>().SetBool(name, true);
+        yield return new WaitForSeconds(3.0f);
+        Player.GetComponent<Animator>().SetBool(name, false);
+
+
+    }
     // 回血
     void Skill3()
     {
         if (cardCounters[2] > 0)
         {
             Debug.Log("Skill3");
-            Player.GetComponent<Animator>().SetBool("is recove" , true);
-
+            StartCoroutine(ChangeAnimator("is recove"));
             Player.health += 10.0f * cardCounters[2];
-            Player.GetComponent<Animator>().SetBool("is recove" , false);
             if(Player.health > 100.0f) Player.health = 100.0f;
+
         }
     }
     // 眩晕
