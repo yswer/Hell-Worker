@@ -21,15 +21,15 @@ public class StartStory : MonoBehaviour
     async void AsyncStart()
     {
         await RuntimeInitializer.InitializeAsync();
-        // canvas.worldCamera = GameObject.Find("UICamera").GetComponent<Camera>();
+        canvas.worldCamera = GameObject.Find("UICamera").GetComponent<Camera>();
     }
 
     async void AsyncClick()
     {
         var player = Engine.GetService<IScriptPlayer>();
         
-        canvas.gameObject.SetActive(false);
         await player.PreloadAndPlayAsync("StartStory");
+        canvas.gameObject.SetActive(false);
         // await player.PreloadAndPlayAsync("AvgOffice");
     }
 }
