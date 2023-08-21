@@ -40,7 +40,9 @@ public class CardManager : MonoBehaviour
     Vector3 GetRandomSpawnPosition()
     {
         Vector2 randomCircle = Random.insideUnitCircle.normalized * spawnRadius;
-        Vector3 randomPosition = playerTransform.position + new Vector3(randomCircle.x, 0.0f, randomCircle.y);
+        Vector3 randomPosition;
+        if(playerTransform != null)  randomPosition = playerTransform.position + new Vector3(randomCircle.x, 0.0f, randomCircle.y);
+        else randomPosition = new Vector3(randomCircle.x, 0.0f, randomCircle.y);
         return randomPosition;
     }
 
@@ -153,7 +155,7 @@ public class CardManager : MonoBehaviour
         if (cardCounters[2] > 0)
         {
             Debug.Log("Skill3");
-            StartCoroutine(ChangeAnimator("is recove"));
+            StartCoroutine(ChangeAnimator("is recover"));
             Player.health += 10.0f * cardCounters[2];
             if(Player.health > 100.0f) Player.health = 100.0f;
 

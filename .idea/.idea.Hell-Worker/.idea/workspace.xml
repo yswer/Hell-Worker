@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31626a3e-c90c-4663-9204-3f581312e62f" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hell-Worker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hell-Worker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Card/CardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Card/CardManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

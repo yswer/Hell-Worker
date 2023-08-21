@@ -30,6 +30,5 @@ public class StartStory : MonoBehaviour
         
         await player.PreloadAndPlayAsync("StartStory");
         canvas.gameObject.SetActive(false);
-        // await player.PreloadAndPlayAsync("AvgOffice");
     }
 }
