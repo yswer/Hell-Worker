@@ -160,4 +160,57 @@ MonoBehaviour:
     Resources:
     - name: default
       pathPrefix: Characters/woman
-      guid: 78a0e6e01b99cae469f805c96be150c0
+      guid: 1c5897deb10cacb4f99c1740126cbb13
+  - Id: Scripts
+    Resources:
+    - name: StartStory
+      pathPrefix: Scripts
+      guid: 7fc2cba28f8a7a845803dbe80a8d1cf6
+    - name: EndStory
+      pathPrefix: Scripts
+      guid: fb5494ac814fb3c479cd494503532220
+  - Id: Backgrounds/faa65eaa-0cc8-474c-a8b9-192027ec02ef
+    Resources:
+    - name: hell
+      pathPrefix: Backgrounds/MainBackground
+      guid: c8bad22dd0e92a142b8258c2f67ac8d7
+    - name: office
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9fa14d179cd9cc1489a8916e3e158818
+    - name: street
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8949da8e4f67e3b45baba5d2fcc44efe
+    - name: park
+      pathPrefix: Backgrounds/MainBackground
+      guid: caf19acd939be254194ea12874081108
+    - name: home
+      pathPrefix: Backgrounds/MainBackground
+      guid: 461a6ed0b7d9ebc4ea14441ea023c992
+    - name: black
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0cad7f977c0e765469d653e16d07daba
+  - Id: Characters/1b30eff6-0782-41fc-823e-759082890ddc
+    Resources:
+    - name: default
+      pathPrefix: Characters/beggar
+      guid: fa092177a4f871d47a10a00dd84adaa5
+  - Id: Characters/9f5ef97b-19ef-400d-8472-fccdf835b9c5
+    Resources:
+    - name: default
+      pathPrefix: Characters/horse_face
+      guid: bfb497802ce73fb43ad29e88b9b4f056
+  - Id: Characters/8e39bf8e-7c00-41d9-89cc-609001f762e3
+    Resources:
+    - name: default
+      pathPrefix: Characters/default
+      guid: ca778ca52bd4bb44fb670ad9fe27880e
+  - Id: Characters/5e2f2363-337b-44aa-8585-4bb741704787
+    Resources:
+    - name: default
+      pathPrefix: Characters/myself
+      guid: 1cb94f356a66afb4b88dbc88f52cfc63
+  - Id: Characters/f64021af-c979-4db2-8e92-6bd8cbdeb929
+    Resources:
+    - name: default
+      pathPrefix: Characters/ox_head
+      guid: 1a7c6f445130bdb4192553a855f6ba31
