@@ -28,8 +28,8 @@ public class StartStory : MonoBehaviour
     {
         var player = Engine.GetService<IScriptPlayer>();
         
-        canvas.gameObject.SetActive(false);
         await player.PreloadAndPlayAsync("StartStory");
+        canvas.gameObject.SetActive(false);
         // await player.PreloadAndPlayAsync("AvgOffice");
     }
 }

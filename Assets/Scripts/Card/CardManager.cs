@@ -147,6 +147,7 @@ public class CardManager : MonoBehaviour
 
             Player.health += 10.0f * cardCounters[2];
             Player.GetComponent<Animator>().SetBool("is recove" , false);
+            if(Player.health > 100.0f) Player.health = 100.0f;
         }
     }
     // 眩晕

@@ -33,14 +33,14 @@ public class BattleManager : MonoBehaviour
 
         // GameObject[] targets = GameObject.FindGameObjectsWithTag("Character").OrderBy(g => g.transform.position.y()).ToArray();
 
-        List<GameObject> targets = GameObject.FindGameObjectsWithTag("Character").ToList();
-        targets.Sort((ob1, ob2) => (int)((ob1.transform.position.y - ob2.transform.position.y) * 1000));
-        int i = 0;
-        foreach(var target in targets)
-        {
-            target.GetComponent<SortingGroup>().sortingOrder = i++;
-            Debug.Log("排序");
-        }
+        // List<GameObject> targets = GameObject.FindGameObjectsWithTag("Character").ToList();
+        // targets.Sort((ob1, ob2) => (int)((ob1.transform.position.y - ob2.transform.position.y) * 1000));
+        // int i = 0;
+        // foreach(var target in targets)
+        // {
+        //     target.GetComponent<SortingGroup>().sortingOrder = i++;
+        //     Debug.Log("排序");
+        // }
     }
 
     public bool BattleEnd()
