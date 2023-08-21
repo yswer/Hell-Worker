@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.Rendering;
 
 public class BattleManager : MonoBehaviour
 {
@@ -28,14 +29,6 @@ public class BattleManager : MonoBehaviour
             // droppedItem.SetActive(true);
             // 门可以触发
         }
-        // GameObject[] targets = GameObject.FindGameObjectsWithTag("Character").OrderBy(g => g.transform.position.y()).ToArray();
-        // GameObject[] targets = GameObject.FindGameObjectsWithTag("Character");
-        // int i = 0;
-        // foreach(GameObject target in targets)
-        // {
-        //     // target.GetComponent<SortingGroup>().sortingOrder = i++;
-        //     // target.sortingOrder = i++;
-        // }
     }
 
     public bool BattleEnd()
