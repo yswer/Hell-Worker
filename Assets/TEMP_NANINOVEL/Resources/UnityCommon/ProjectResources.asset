@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d8a631b468ced42a5044c8442a4f42, type: 3}
+  m_Name: ProjectResources
+  m_EditorClassIdentifier: 
+  resourcePaths:
+  - Path: Naninovel/Spawn/ShakePrinter
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptEditor
+    Type: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/ChoiceHandlers
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/ResourceProviderConfiguration
+    Type: Naninovel.ResourceProviderConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Configuration/CustomVariablesConfiguration
+    Type: Naninovel.CustomVariablesConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Sprite Assets
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableText
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptGotoIcon
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Wide
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Fullscreen
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Characters/myself
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/Animate
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground/street
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/InputConfiguration
+    Type: Naninovel.InputConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Shaders/BlurFilter
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ChoiceHandlers/ButtonArea
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/DigitalGlitch
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearchSmallDownOff
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground/office
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/BackgroundsConfiguration
+    Type: Naninovel.BackgroundsConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/ScriptGraph
+    Type: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProFullscreen
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ChoiceHandlers/ButtonList
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/ShakeCamera
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldComposition
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptNavigator
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Fonts & Materials
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProBubble
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/SettingsUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/ScriptsConfiguration
+    Type: Naninovel.ScriptsConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/UI/ExternalScriptsUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/CharactersConfiguration
+    Type: Naninovel.CharactersConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Scripts/EndStory
+    Type: Naninovel.Script, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Textures/Black
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Sprite Assets/EmojiOne
+    Type: TMPro.TMP_SpriteAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/UnlockablesConfiguration
+    Type: Naninovel.UnlockablesConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Searcher
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldDiskBlur
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/RollbackUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthMask
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/SceneTransitionUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/TransitionalUI
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground/hell
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/TextPrintersConfiguration
+    Type: Naninovel.TextPrintersConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground/home
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ClickThroughPanel
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/BacklogUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfField
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/Snow
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/SunShafts
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Textures/Clouds
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Scripts
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/Blur
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Characters/ox_head/default
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/Rain
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProDialogue
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/NaninovelCG
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearchSmallDownOff@2x
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Characters/ox_head
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/SpawnConfiguration
+    Type: Naninovel.SpawnConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/UI/CGGalleryUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/VariableInputUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldDiskKernel
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground/park
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Fonts & Materials/LiberationSans SDF - Drop Shadow
+    Type: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/CameraConfiguration
+    Type: Naninovel.CameraConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldCommon
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/TipsUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableTMProSprite
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Movies
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/EngineConfiguration
+    Type: Naninovel.EngineConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/DefaultMixer
+    Type: UnityEditor.Audio.AudioMixerController, UnityEditor.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Characters/horse_face/default
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/EngineVersion
+    Type: Naninovel.EngineVersion, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: LineBreaking Leading Characters
+    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/Transparent
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Characters/horse_face
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/ShakeCharacter
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Characters
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/ChoiceHandlersConfiguration
+    Type: Naninovel.ChoiceHandlersConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Fonts & Materials/LiberationSans SDF - Outline
+    Type: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Textures/UnknownActor
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Style Sheets/Default Style Sheet
+    Type: TMPro.TMP_StyleSheet, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Scripts/StartStory
+    Type: Naninovel.Script, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Style Sheets
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/PauseUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/Searcher
+    Type: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Shaders/TransitionalTexture
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Chat
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearcherItem
+    Type: UnityEngine.UIElements.VisualTreeAsset, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: LineBreaking Following Characters
+    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptEditorDark
+    Type: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/TextPrinters
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ToastUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/MoviesConfiguration
+    Type: Naninovel.MoviesConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Characters/myself/default
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground/black
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ContinueInputUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableTMProTextRTL
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ConfirmationUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/AudioConfiguration
+    Type: Naninovel.AudioConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Movies/pv
+    Type: UnityEngine.Video.VideoClip, UnityEngine.VideoModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/EngineInitializationUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearchSmallDownOn
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DigitalGlitch
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/EditMetaIcon
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableTMProText
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/LocalizationConfiguration
+    Type: Naninovel.LocalizationConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Shaders
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/TitleUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/MovieUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/DepthOfField
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptAssetIcon
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearchSmallDownOn@2x
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/LoadingUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/TransitionEffects
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Fonts & Materials/LiberationSans SDF - Fallback
+    Type: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/SaveLoadUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldPrefilter
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/StateConfiguration
+    Type: Naninovel.StateConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearcherWindow
+    Type: UnityEngine.UIElements.VisualTreeAsset, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/NaninovelLogo
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/ShakeBackground
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: TMP Settings
+    Type: TMPro.TMP_Settings, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Textures
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProWide
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Fonts & Materials/LiberationSans SDF
+    Type: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/ManagedTextConfiguration
+    Type: Naninovel.ManagedTextConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Backgrounds
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/UIConfiguration
+    Type: Naninovel.UIConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Bubble
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Dialogue
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

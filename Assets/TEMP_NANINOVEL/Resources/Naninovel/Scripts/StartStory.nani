@@ -1,0 +1,111 @@
+@movie pv
+@back hell
+
+@printer Fullscreen
+[br 10]
+这是……哪里？
+@resetText
+
+@printer Dialogue
+@char myself.default
+你抱着工位上的键盘，茫然地站在中央。
+@hide myself
+
+; wait=false 直接运行下一段话
+@char ox_head.default wait:false
+@char horse_face.default
+ox_head: 这是今天第14444个猝死的，哎哟……阎罗王的小女儿阎卷王怎么就逃到上面了呢，这都让多少人卷死了啊！咱们地府人满为患啦！
+horse_face: 再这样下去咱们都要猝死了！你说咱们猝死后会到哪啊……诶！他身上有躺平的气息。
+ox_head: 我来看看……嗯，他在上面是个做游戏的……34岁，至今从未做过一款成功上线的游戏，不是项目被砍就是降本增效被裁。
+horse_face: 他是在休息的时候死的……难怪会被那位选中。
+@hideChars
+
+还没想明白他们的话，你就被簇拥着来到阎罗王的面前，只见他们凑近阎罗王的耳边说了些什么，阎罗王从自己的桌案上拿出了一张纸。
+@char ox_head.default wait:false
+@char horse_face.default
+牛头马面恭敬地接过这张纸，在你面前将它展开——《地府雇佣协议》？
+
+ox_head: 咳咳……你好呀，死得很突然，我们也知道你心里不好受，你想不想重返人间呢？
+; @hide ox_head
+
+@choice "想" goto:.Agree_1
+@choice "不想" goto:.Reject_1
+@stop
+
+# Reject_1
+@char myself.default wait:false
+myself: 死掉的感觉……真是太好了！！终于不用工作了！
+
+ox_head: 你现在制作的游戏原本可以大爆，可是因为阎卷王扰乱了人间的生死，导致你们戏用户大幅减少，最后终止开发……
+ox_head: 你就不想改变这一切吗？
+
+# Agree_1
+@char myself.default
+myself: 项目还没上线，年终分红还没拿到……对，对！我还不能死！
+
+ox_head: 只要签订这个协议，你协助我们在白天清理【内卷之力】，就可以将一切恢复正常了！放心吧，我们地府很遵守《地府劳动法》的。
+myself: 为什么是我？
+
+@hide myself wait:false
+@arrange
+ox_head: 被迫内卷，一事无成，从结果来看，你足够躺平，我们大小姐最讨厌……啊不，最害怕你这种人了！
+ox_head: 和我们签订协议吧，虽然你不能像我们一样成为地府牛马，但当个普通地府员工还是很好的。五险一金，超长年假，你值得拥有！
+@hide ox_head wait:false
+
+@choice "签订协议" goto:.Agree_2
+@choice "还是算了" goto:.Reject_2
+@stop
+
+# Reject_2
+@char myself.default
+myself: 还是算了，我不行……让我转世投胎吧。下一世再做出爆款……
+
+@back black wait:false
+@printer Fullscreen
+你投胎了。
+2岁爬得没有人快
+6岁考得不如人高……
+周围的人全都陷入了疯狂地内卷
+终于，你又被卷死了，又回到了地狱。
+睁开眼，牛头马面拿着协议期待地看着你——
+@resetText
+
+@back hell wait:false
+@hidePrinter
+
+@choice "签订协议" goto:.Agree_2
+@stop
+
+# Agree_2
+@hideAll wait:false
+@back black
+[br 10]
+眼前一黑，你重返人间。这一次，你发誓——要让所有内卷的人都狠狠休息。
+
+
+@back office
+
+@printer Fullscreen
+[br 10]
+这是一栋熟悉的办公楼。和你生前的公司很像，冰冷的工位、坏掉的百叶窗……
+@resetText
+
+@printer Dialogue
+@char ox_head.default
+ox_head: 欢迎回到人间！让我来看看你的武器，武器是最重要的，它是你下地府都要随身携带的物品。你的武器是……键盘？！！
+@char myself.default
+myself: 身在游戏行业，怎能没有键盘……只不过键盘能用来清理内卷之力吗？
+ox_head: 当然可以了，你们人间不是有什么键盘侠的说法嘛。至于如何使用，你的身体会自动做出反应的！何况休息之力正在护佑你。
+myself: 刚才我就想问，你们说的休息之力是什么？
+ox_head: 和内卷之力相抗衡的东西。总之，你先前进把那张卡牌捡起来，随着卡牌种类和等级的增加，你身上的休息之力也会越来越强。
+ox_head: 至于它的使用方式，也相当休闲！只需点击下方收集到的卡牌，就能释放相应技能啦。
+ox_head: 当你收集到足够的休息之力，即左上角蓝条重新变满的时候，就证明你把一个区域的内卷之力清除了。
+ox_head: 到时候所有人都能享受到休息的魅力……不过都是后话，试用期不看这些。
+myself: 还有试用期？你前面怎么不讲清楚？
+ox_head: 哎呀，时间所迫！试用期很简单的，只要活过这周就可以转正了。马面在叫我，我先走了啊！你加油，打工人！
+
+@hideUI
+@hideAll
+@loadScene Battle_1
+@stop
+

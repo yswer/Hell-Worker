@@ -160,7 +160,7 @@ MonoBehaviour:
     Resources:
     - name: default
       pathPrefix: Characters/woman
-      guid: 1c5897deb10cacb4f99c1740126cbb13
+      guid: e024f306628c37e459cdd92900c34e25
   - Id: Scripts
     Resources:
     - name: StartStory
@@ -193,12 +193,12 @@ MonoBehaviour:
     Resources:
     - name: default
       pathPrefix: Characters/beggar
-      guid: fa092177a4f871d47a10a00dd84adaa5
+      guid: 20b5bddf0bc29b44594e35c8f40396a5
   - Id: Characters/9f5ef97b-19ef-400d-8472-fccdf835b9c5
     Resources:
     - name: default
       pathPrefix: Characters/horse_face
-      guid: bfb497802ce73fb43ad29e88b9b4f056
+      guid: f4970c84a80f1a246a049f912a430391
   - Id: Characters/8e39bf8e-7c00-41d9-89cc-609001f762e3
     Resources:
     - name: default
@@ -208,9 +208,14 @@ MonoBehaviour:
     Resources:
     - name: default
       pathPrefix: Characters/myself
-      guid: 1cb94f356a66afb4b88dbc88f52cfc63
+      guid: b382da3176188f847927eec4e4c729bc
   - Id: Characters/f64021af-c979-4db2-8e92-6bd8cbdeb929
     Resources:
     - name: default
       pathPrefix: Characters/ox_head
-      guid: 1a7c6f445130bdb4192553a855f6ba31
+      guid: bc893b4697f0bd54dabc67e38ef2160f
+  - Id: Movies
+    Resources:
+    - name: pv
+      pathPrefix: Movies
+      guid: 51acf73e79f33a343a1c135fcff46a5d

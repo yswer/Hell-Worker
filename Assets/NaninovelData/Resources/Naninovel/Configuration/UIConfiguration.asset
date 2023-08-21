@@ -19,7 +19,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  OverrideObjectsLayer: 1
+  OverrideObjectsLayer: 0
   ObjectsLayer: 5
   FontOptions: []
   DefaultFont: 

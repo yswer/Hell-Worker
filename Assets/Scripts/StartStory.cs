@@ -28,7 +28,8 @@ public class StartStory : MonoBehaviour
     {
         var player = Engine.GetService<IScriptPlayer>();
         
-        await player.PreloadAndPlayAsync("StartStory");
+        // await player.PreloadAndPlayAsync("StartStory");
+        await player.PreloadAndPlayAsync("EndStory");
         canvas.gameObject.SetActive(false);
     }
 }
