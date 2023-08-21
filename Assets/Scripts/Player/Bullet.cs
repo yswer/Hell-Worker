@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Character") && collision.gameObject.name != "Player")
         {
             // 对敌人造成伤害的逻辑
             // 例如：调用敌人脚本的伤害函数

@@ -44,12 +44,16 @@ public class PlayerController : MonoBehaviour
 
     void FindClosestEnemy()
     {
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Character");
         float closestDistance = Mathf.Infinity;
         closestEnemy = null; // 重置最近敌人
 
         foreach (GameObject enemy in enemies)
         {
+            if (enemy == gameObject)
+            {
+                continue;
+            }
             float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
             if (distanceToEnemy < closestDistance)
             {

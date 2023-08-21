@@ -36,7 +36,6 @@ public class CardPickUp : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // if (other.CompareTag("Player"))
         if (other.name == "Player")
         {
             Debug.Log("Picked Up");
