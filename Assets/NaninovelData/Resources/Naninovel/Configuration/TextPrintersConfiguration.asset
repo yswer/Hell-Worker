@@ -90,7 +90,7 @@ MonoBehaviour:
       AutoWait: 1
       AutoLineBreak: 0
       AddToBacklog: 1
-      SplitBacklogMessages: 0
+      SplitBacklogMessages: 1
       StopVoice: 0
       ChangeVisibilityDuration: 0.3
       PrintFrameDelay: 1

@@ -12,7 +12,7 @@ public class EnemySpawnManager : MonoBehaviour
     public int numberOfEnemiesToSpawn = 10;
     public float spawnRadius = 20.0f;
     public int enemies = 0;
-    public int numOfSpawn = 5;
+    public int numOfSpawn = 3;
     public GameObject[] spawnPoints;
     
     // private List<GameObject> spawnPoints;
@@ -29,8 +29,8 @@ public class EnemySpawnManager : MonoBehaviour
     
     public void SpawnEnemyFromPoint()
     {
-        // Debug.Log("生成怪物");
-        if(numOfSpawn == 0) return;
+        Debug.Log("生成怪物");
+        if(numOfSpawn <= 0) return;
         numOfSpawn--;
         // foreach(var point in spawnPoints)
         // {

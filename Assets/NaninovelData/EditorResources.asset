@@ -132,9 +132,6 @@ MonoBehaviour:
     - name: RollbackUI
       pathPrefix: UI
       guid: a32c73a3aff4b274c85b3ff16c854b07
-    - name: SaveLoadUI
-      pathPrefix: UI
-      guid: 8d53726b3d08433479398f02b4780e7f
     - name: SceneTransitionUI
       pathPrefix: UI
       guid: e3b234b4273b7f64ab3f1d9fe425ed23
