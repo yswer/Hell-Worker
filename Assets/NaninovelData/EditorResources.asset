@@ -153,6 +153,9 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: SaveLoadUI
+      pathPrefix: UI
+      guid: 8d53726b3d08433479398f02b4780e7f
   - Id: Characters/e31d7669-83b2-4ff1-8f75-f390ab43dac1
     Resources:
     - name: default
@@ -166,6 +169,9 @@ MonoBehaviour:
     - name: EndStory
       pathPrefix: Scripts
       guid: fb5494ac814fb3c479cd494503532220
+    - name: DeadStory
+      pathPrefix: Scripts
+      guid: 47224dc8819663343b76ec2530546c83
   - Id: Backgrounds/faa65eaa-0cc8-474c-a8b9-192027ec02ef
     Resources:
     - name: hell
@@ -216,3 +222,5 @@ MonoBehaviour:
     - name: pv
       pathPrefix: Movies
       guid: 51acf73e79f33a343a1c135fcff46a5d
+  - Id: Unlockables
+    Resources: []

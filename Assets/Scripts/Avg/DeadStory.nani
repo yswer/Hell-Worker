@@ -1,0 +1,16 @@
+@back hell
+@printer Dialogue
+@char ox_head.default wait:false
+ox_head: 试用期没过？没关系，根据《地府劳动法》第250条，您还有36999次试用期机会。
+@char myself.default
+myself: 很难转正不成功，你们还挺人性……
+ox_head: 谬赞了。好好休息，周一见。
+
+@back black
+@printer Fullscreen
+[br 10]
+你再一次开启了【内卷之力】的清理……这一次，一定要活过一周！
+@resetText
+
+@loadScene Battle_1
+@stop

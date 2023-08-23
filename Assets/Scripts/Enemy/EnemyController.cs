@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour
     public float health = 10.0f;
     public int damagePerAttack = 10;
     public float attackInterval = 1.0f; // 攻击间隔
+    private float maxRange = 5.0f;
     
     private EnemySpawnManager spawnManager;
     private bool canAttack = true;
@@ -53,11 +54,23 @@ public class EnemyController : MonoBehaviour
     // 检查是否与玩家重合............................可能需要重写，cllider太小
     bool IsCollidingWithPlayer()
     {
-        Collider2D col = GetComponent<Collider2D>();
-        if (col != null)
-        {
-            return col.bounds.Intersects(player.GetComponent<Collider2D>().bounds);
+        var distance = (player.position - transform.position).sqrMagnitude;
+        // var heading = transform.position - player.position;
+        // if (heading.sqrMagnitude < maxRange * maxRange) {
+        if(distance < maxRange*maxRange) {
+            // 目标在范围内。
+            Debug.Log("目标在范围内");
+            Debug.Log(distance);
+            Debug.Log(maxRange*maxRange);
+            return true;
         }
+        // Debug.Log(distance);
+
+        // Collider2D col = GetComponent<Collider2D>();
+        // if (col != null)
+        // {
+        //     return col.bounds.Intersects(player.GetComponent<Collider2D>().bounds);
+        // }
         return false;
     }
 
@@ -71,6 +84,7 @@ public class EnemyController : MonoBehaviour
         // player.GetComponent<PlayerHealth>().TakeDamage(damagePerAttack);
         Debug.Log("Enemy Hit");
         player.gameObject.GetComponent<PlayerController>().health -= damagePerAttack;
+        player.gameObject.GetComponent<Animator>().SetBool("" , true);
         yield return new WaitForSeconds(attackInterval);
 
         canAttack = true;

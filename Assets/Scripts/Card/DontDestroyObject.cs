@@ -4,6 +4,7 @@ public class DontDestroyObject : MonoBehaviour
 {
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if(GameObject.Find("CardManager"))
+            DontDestroyOnLoad(this.gameObject);
     }
 }

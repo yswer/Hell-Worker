@@ -11,9 +11,8 @@
 你抱着工位上的键盘，茫然地站在中央。
 @hide myself
 
-; wait=false 直接运行下一段话
-@char ox_head.default wait:false
-@char horse_face.default
+@char horse_face.default wait:false
+@char ox_head.default
 ox_head: 这是今天第14444个猝死的，哎哟……阎罗王的小女儿阎卷王怎么就逃到上面了呢，这都让多少人卷死了啊！咱们地府人满为患啦！
 horse_face: 再这样下去咱们都要猝死了！你说咱们猝死后会到哪啊……诶！他身上有躺平的气息。
 ox_head: 我来看看……嗯，他在上面是个做游戏的……34岁，至今从未做过一款成功上线的游戏，不是项目被砍就是降本增效被裁。
@@ -28,19 +27,18 @@ horse_face: 他是在休息的时候死的……难怪会被那位选中。
 ox_head: 咳咳……你好呀，死得很突然，我们也知道你心里不好受，你想不想重返人间呢？
 ; @hide ox_head
 
+@char myself.default
 @choice "想" goto:.Agree_1
 @choice "不想" goto:.Reject_1
 @stop
 
 # Reject_1
-@char myself.default wait:false
 myself: 死掉的感觉……真是太好了！！终于不用工作了！
 
 ox_head: 你现在制作的游戏原本可以大爆，可是因为阎卷王扰乱了人间的生死，导致你们戏用户大幅减少，最后终止开发……
 ox_head: 你就不想改变这一切吗？
 
 # Agree_1
-@char myself.default
 myself: 项目还没上线，年终分红还没拿到……对，对！我还不能死！
 
 ox_head: 只要签订这个协议，你协助我们在白天清理【内卷之力】，就可以将一切恢复正常了！放心吧，我们地府很遵守《地府劳动法》的。
@@ -51,6 +49,7 @@ myself: 为什么是我？
 ox_head: 被迫内卷，一事无成，从结果来看，你足够躺平，我们大小姐最讨厌……啊不，最害怕你这种人了！
 ox_head: 和我们签订协议吧，虽然你不能像我们一样成为地府牛马，但当个普通地府员工还是很好的。五险一金，超长年假，你值得拥有！
 @hide ox_head wait:false
+@hide horse_face
 
 @choice "签订协议" goto:.Agree_2
 @choice "还是算了" goto:.Reject_2
@@ -62,6 +61,7 @@ myself: 还是算了，我不行……让我转世投胎吧。下一世再做出
 
 @back black wait:false
 @printer Fullscreen
+[br 5]
 你投胎了。
 2岁爬得没有人快
 6岁考得不如人高……
@@ -71,7 +71,9 @@ myself: 还是算了，我不行……让我转世投胎吧。下一世再做出
 @resetText
 
 @back hell wait:false
-@hidePrinter
+@hidePrinter wait:false
+@char ox_head.default wait:false
+@char horse_face.default
 
 @choice "签订协议" goto:.Agree_2
 @stop
@@ -81,11 +83,10 @@ myself: 还是算了，我不行……让我转世投胎吧。下一世再做出
 @back black
 [br 10]
 眼前一黑，你重返人间。这一次，你发誓——要让所有内卷的人都狠狠休息。
+@resetText
 
 
 @back office
-
-@printer Fullscreen
 [br 10]
 这是一栋熟悉的办公楼。和你生前的公司很像，冰冷的工位、坏掉的百叶窗……
 @resetText

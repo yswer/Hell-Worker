@@ -1,19 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5.0f;
+    public float moveSpeed = 10.0f;
     public float health = 100.0f;
     public float energy = 7.0f;
     public float damage = 10.0f;
     public GameObject bulletPrefab;
-    public float bulletSpeed = 10.0f;
+    public float bulletSpeed = 20.0f;
     public float shootInterval = 1.0f;
 
     private Transform closestEnemy;
     private float lastShootTime;
+    private bool isDead = false;
+    private float timer = 0.0f;
 
     
     // Update is called once per frame
@@ -32,10 +35,13 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
-        if (health <= 0.0f)
-        {
+        if (health <= 0.0f) {
+            isDead = true;
             gameObject.GetComponent<Animator>().SetBool("is died" , true);
-            
+        }
+        if(isDead){
+            timer += Time.deltaTime;
+            if(timer >= 5) UnityEngine.SceneManagement.SceneManager.LoadScene("DeadScene");
         }
         FindClosestEnemy();
         

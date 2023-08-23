@@ -88,6 +88,8 @@ public class CardManager : MonoBehaviour
 
         yield return new WaitForSeconds(delay);
         Player.GetComponent<Animator>().SetBool("is speed" , false);
+        
+        // StartCoroutine(ChangeAnimator("is speed"));
 
         Player.moveSpeed = beginSpeed;  
     }
@@ -99,7 +101,11 @@ public class CardManager : MonoBehaviour
         {
             Player.shootInterval /= 2;
         }
+        
+        // StartCoroutine(ChangeAnimator("attack speed"));
+        Player.GetComponent<Animator>().SetBool("attack speed" , true);
         yield return new WaitForSeconds(delay);
+        Player.GetComponent<Animator>().SetBool("attack speed" , false);
         Player.shootInterval = beginInterval;  
     }
     
@@ -167,6 +173,7 @@ public class CardManager : MonoBehaviour
         if (cardCounters[3] > 0)
         {
             Debug.Log("Skill4");
+            StartCoroutine(ChangeAnimator("control boss"));
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("Character");
             foreach (GameObject enemy in enemies)
             {
